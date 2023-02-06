@@ -312,6 +312,7 @@ void handleInput(const string& input, int choice) {
             cout << endl;
             break;
         case 3:
+            cout << "Evaluated expression: " << expression.postToIn() << endl;
             cout << "The result is: " << expression.evaluate() << endl;
         case 4:
             break;
