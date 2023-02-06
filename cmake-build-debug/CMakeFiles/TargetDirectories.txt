@@ -1,0 +1,3 @@
+/Users/frederikblais/Documents/University/Winter2023/Data Structures/assignment2_frederikblais/cmake-build-debug/CMakeFiles/assignment2_frederikblais.dir
+/Users/frederikblais/Documents/University/Winter2023/Data Structures/assignment2_frederikblais/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/frederikblais/Documents/University/Winter2023/Data Structures/assignment2_frederikblais/cmake-build-debug/CMakeFiles/rebuild_cache.dir
