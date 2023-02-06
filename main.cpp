@@ -255,6 +255,11 @@ void quit() {
  * Validates the user's choice
  *
  * Params: int choice
+ *
+ * if choice is 4, print documentation menu
+ * if choice is 5, quit program
+ *
+ * Returns: bool
  */
 bool isValidChoice(int choice) {
     if (choice < 1 || choice > 5 || cin.fail()) {
@@ -273,8 +278,19 @@ bool isValidChoice(int choice) {
     return true;
 }
 
-// Manage user input in main menu
-int handleInput(const string& input, int choice) {
+/*
+ *
+ * Handles user input
+ *
+ * Params: string input, int choice
+ *
+ * 1, convert infix to postfix
+ * 2, convert postfix to infix
+ * 3, evaluate postfix expression
+ * 4, print documentation menu
+ * 5, quit program
+ */
+void handleInput(const string& input, int choice) {
 
     int direction;
 
@@ -301,12 +317,10 @@ int handleInput(const string& input, int choice) {
             break;
         case 5:
             cout << "Goodbye!" << endl;
-            return 1;
         default:
             cout << "Invalid choice" << endl;
             break;
     }
-    return 0;
 }
 
 /*
@@ -364,6 +378,7 @@ int main() {
 // [Done] Complete help menu
 // [Done] Git repo
 
+// TODO: Display the infix version of the infix expression when evaluating
 // TODO: Document code
 // TODO: Error Handling
 // TODO: Type checking
