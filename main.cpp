@@ -362,9 +362,9 @@ int main() {
 // [Done] issues with converting postfix to infix
 // [Done] issues with converting infix to postfix
 // [Done] Complete help menu
+// [Done] Git repo
 
 // TODO: Document code
-// TODO: Git repo
 // TODO: Error Handling
 // TODO: Type checking
 // TODO: Not let user input an infix expression in "evaluate" mode
